@@ -8,14 +8,13 @@ middle_name:
 last_name: Villard
 email: charles@villard.it
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🛠  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://villard.it # the base hostname & protocol for your site
 baseurl: / # the subpath of your site, e.g. /blog/
@@ -44,7 +43,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -105,7 +104,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: silvanosky
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  You can contact me by email.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -121,9 +120,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
+blog_name: Charles Villard's blog # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_description: Some posts about my work.
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -137,21 +136,21 @@ related_blog_posts:
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
-giscus:
-  repo: alshedivat/al-folio      # <your-github-user-name>/<your-github-repo-name>
-  repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
-  category: Comments             # name of the category under which discussions will be created
-  category_id: DIC_kwDOA5PmLc4CTBt6
-  mapping: title                 # identify discussions by post title
-  strict: 1                      # use strict identification mode
-  reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
-  input_position: bottom         # whether to display input form below (bottom) or above (top) the comments
-  theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
-  emit_metadata: 0
-  lang: en
+#giscus:
+#  repo: alshedivat/al-folio      # <your-github-user-name>/<your-github-repo-name>
+#  repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
+#  category: Comments             # name of the category under which discussions will be created
+#  category_id: DIC_kwDOA5PmLc4CTBt6
+#  mapping: title                 # identify discussions by post title
+#  strict: 1                      # use strict identification mode
+#  reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
+#  input_position: bottom         # whether to display input form below (bottom) or above (top) the comments
+#  theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
+#  emit_metadata: 0
+#  lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+#disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -270,8 +269,8 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: Villard
+  first_name: [Charles, C.]
 
   style: apa
   locale: en
