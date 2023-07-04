@@ -13,9 +13,7 @@
   contents:
     - title: PhD in Robotics and Photogrammetry
       institution:
-        - LRE - EPITA
-        - UMR LaSTIG - IGN
-        - Universitée Gustave Eiffel, Marne-La-Vallée
+        - LRE - EPITA | UMR LaSTIG - IGN | Universitée Gustave Eiffel, Marne-La-Vallée
       year: 2020 - 2023
       description:
         - Working on lightweight and low-cost acsquisition platform for underwater photogrammetry.
