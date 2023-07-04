@@ -12,21 +12,21 @@
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Universitée Gustave Eiffel, Marne-La-Vallée
+      year: 2020 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Working on lightweight and low-cost acsquisition platform for underwater photogrammetry.
+        - Design and build of Autonomous USV catamaran as robotic platform.
+        - Design and build of Multi camera synchronized underwater.
+        - Work on Hierarchical photogrammetry pipeline in MicMac.
+    - title: Master in Computer Science.
+      institution: EPITA (Ecole pour l'informatique et les techniques avancées), Paris
+      year: 2015 - 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Specialized in Real Time embedded systems.
+    - title: Abroad Semester In Computer Science And Electronics
+      institution: Stellenbosch university, South-Africa
+      year: 2017
 
 - title: Experience
   type: time_table
